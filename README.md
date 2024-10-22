@@ -1,5 +1,5 @@
 
-Project Proposal ( Group 4 )
+**Project Proposal ( Group 4 )**
 
 # Fraud Detection in Financial Transactions Using Machine Learning
 
@@ -79,7 +79,8 @@ Our project is licensed under the Creative Commons Attribution-NonCommercial-Sha
 Under this license, appropriate credit must be given, with a link to the license, and any changes must be indicated. The material cannot be used for commercial purposes. Additionally, if others create derivative works, they must distribute them under the same license. No extra legal restrictions or technological measures that limit these permissions are allowed.
 Read more about the license on the link below:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
-Github Repo link : 
+
+# Github Repo link : 
 https://github.com/anthonytranhoang/Credit_card_fraud
 
 # Conclusion:
