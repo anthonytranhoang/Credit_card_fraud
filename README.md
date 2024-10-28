@@ -1,4 +1,4 @@
-**Project Proposal ( Group 4 )**
+**Project Description ( Group 4 )**
 
 # Fraud Detection in Financial Transactions Using Machine Learning
 ![images](https://github.com/user-attachments/assets/896def5a-0056-4ada-9592-87c54612d7a2)
