@@ -1,6 +1,7 @@
 **Project Proposal ( Group 4 )**
 
 # Fraud Detection in Financial Transactions Using Machine Learning
+![images](https://github.com/user-attachments/assets/896def5a-0056-4ada-9592-87c54612d7a2)
 
 The main aim of the project is to develop a machine learning model for detecting fraudulent transactions in financial datasets. This model will enhance security, improve detection accuracy, and enable real-time assessments to protect against fraud. Ultimately, the project seeks to build trust in financial systems by ensuring robust fraud detection measures.
 
