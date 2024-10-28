@@ -1,5 +1,5 @@
 
-**Project Proposal ( Group 4 )**
+# My Project Title
 
 # Fraud Detection in Financial Transactions Using Machine Learning
 
