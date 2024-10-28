@@ -143,6 +143,18 @@ Under this license, appropriate credit must be given, with a link to the license
 Read more about the license on the link below:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+# Models overview
+
+In this project, we developed and optimized a machine learning model to detect fraud in financial transactions. Our approach consisted of two main phases:
+
+Model Optimization (Trial Models)
+In the initial phase, we explored different machine learning models to assess their suitability for the task. We experimented with both XGBoost and Random Forest classifiers to identify the model that best balanced accuracy and performance. During these trials, we focused on key steps such as data loading, preprocessing, training, and evaluating each model based on accuracy and classification reports. This phase served as a testing ground to fine-tune hyperparameters and optimize model configurations collaboratively.
+
+Final Model
+After identifying the optimal approach, we consolidated our findings into the final model. In this phase, we incorporated advanced preprocessing techniques, including SMOTE to address class imbalance, which was crucial for accurate fraud detection. Additionally, we prepared the model for deployment by converting it into ONNX format, facilitating integration into production environments. We established a pipeline to streamline data preprocessing, training, and evaluation, ensuring the model’s robustness and scalability.
+
+In summary, our structured approach allowed us to refine the model iteratively, progressing from exploratory trials in the optimization notebook to a deployment-ready solution in the final notebook.
+
 # Conclusion
 
 This project delivers a comprehensive fraud detection solution, integrating machine learning with a user-friendly web interface to provide real-time fraud prevention capabilities, significantly reducing risk for financial institutions.
