@@ -4,19 +4,6 @@
 ![images](https://github.com/user-attachments/assets/896def5a-0056-4ada-9592-87c54612d7a2)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 The main aim of the project is to develop a machine learning model for detecting fraudulent transactions in financial datasets. This model will enhance security, improve detection accuracy, and enable real-time assessments to protect against fraud. Ultimately, the project seeks to build trust in financial systems by ensuring robust fraud detection measures.
 
 
@@ -110,6 +97,11 @@ To use the prediction form, open a web browser and go to http://127.0.0.1:5000/.
 
 Submit Predictions:
 Fill in the transaction details in the form and receive fraud predictions instantly.
+![ui1_720](https://github.com/user-attachments/assets/6bb37bc4-6cda-4b27-a7f2-425af986c776)
+![ui2_720](https://github.com/user-attachments/assets/8fc94e70-98b0-4c8d-9593-7b28615f219f)
+![ui2_720](https://github.com/user-attachments/assets/147b7e04-c508-486b-bc25-1582d898470e)
+
+
 
 # Features
 
