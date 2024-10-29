@@ -31,9 +31,6 @@ static/: Static files needed for the web interface (e.g., images, CSS).
 
 requirements.txt: Specifies all the dependencies and packages required for the project.
 
-README.md: Provides an overview of the project, setup instructions, and documentation.
-
-.gitignore: Specifies files/directories to ignore in the repository.
 
 # Database
 
@@ -83,8 +80,7 @@ After running the notebook, the trained model (model.onnx) and scaler (scaler.pk
 
 # Setting Up the Flask Application
 
-Load Model and Scaler:
-The ONNX model and scaler are loaded in app.py using ONNX Runtime and Pickle, respectively.
+We've saved a machine learning model in ONNX format as model.onnx and a fitted scaler as scaler.pkl using Python. The sklearn-onnx library was used to convert the model to ONNX format, ensuring compatibility with various platforms, while pickle was used to serialize the scaler for consistent data preprocessing. Error handling is included to manage any issues during the conversion and saving processes. Adjust the input dimensions as needed and execute the script to effectively preserve your model and scaler for future use.
 
 # Run the Flask App:
 Navigate to the repository's main directory containing app.py and execute:
