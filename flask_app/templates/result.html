@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-weight: bold; 
+            color: {{ 'green' if prediction_text == 'Not Fraud' else 'red' }}; /* Adjusted color for 'Fraud' */
+        }
+        a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+        .home-button {
+            background-color: #2196F3; /* Blue */
+        }
+        .home-button:hover {
+            background-color: #1E88E5; /* Darker Blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <p>
+            {{ prediction_text }}
+        </p>
+        <a href="{{ url_for('prediction') }}">Make Another Prediction</a>
+        <a class="home-button" href="{{ url_for('home') }}">Home</a> 
+    </div>
+</body>
+</html>
+

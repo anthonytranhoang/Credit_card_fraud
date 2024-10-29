@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Fraud Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 15px; /* Added margin for spacing */
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <img src="/static/fraud_detection.jpg" alt="Fraud Detection">
+    <h1>Stay Ahead of Scammers: Detect Credit Card Fraud Instantly and Securely!</h1>
+    <p>Your trusted tool for detecting fraudulent transactions quickly and efficiently!</p>
+    <a href="{{ url_for('prediction') }}">Go to Prediction Form</a>
+</body>
+</html>

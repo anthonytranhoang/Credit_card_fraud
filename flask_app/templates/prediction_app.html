@@ -1,0 +1,142 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Prediction Form</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: #f0f4f8;  
+            margin: 0;  
+            padding: 0;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh;  
+            font-size: 15px;  
+        }  
+        .container {  
+            background-color: #ffffff;  
+            padding: 25px;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+            width: 400px;  
+        }  
+        h1 {  
+            text-align: center;  
+            color: #333;  
+            margin-bottom: 20px;  
+        }  
+        .grid {  
+            display: grid;  
+            grid-template-columns: repeat(2, 1fr);  
+            gap: 10px;  
+            margin-bottom: 20px;  
+        }  
+        label {  
+            font-weight: bold;  
+            color: #555;  
+            margin-bottom: 5px;  
+            display: block;  
+        }  
+        input {  
+            width: 80%;  
+            padding: 8px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+            margin-top: 5px;  
+            font-size: 15px;  
+        }  
+        input[type="submit"] {  
+            grid-column: span 2;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            padding: 10px;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            font-size: 15px;  
+        }  
+        input[type="submit"]:hover {  
+            background-color: #45a049;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <h1>Fill the Form to Predict Fraud</h1>  
+        <form action="{{ url_for('predict') }}" method="post">  
+            <div class="grid">
+                <div>
+                    <label for="current_address_months_count">Current Address Months Count:</label>  
+                    <input type="text" id="current_address_months_count" name="current_address_months_count" required>  
+                </div>
+                <div>
+                    <label for="credit_risk_score">Credit Risk Score:</label>  
+                    <input type="text" id="credit_risk_score" name="credit_risk_score" required>  
+                </div>
+                <div>
+                    <label for="device_os_windows">Device OS Windows:</label>  
+                    <input type="text" id="device_os_windows" name="device_os_windows" required>  
+                </div>
+                <div>
+                    <label for="name_email_similarity">Name Email Similarity:</label>  
+                    <input type="text" id="name_email_similarity" name="name_email_similarity" required>  
+                </div>
+                <div>
+                    <label for="intended_balcon_amount">Intended Balance Amount:</label>  
+                    <input type="text" id="intended_balcon_amount" name="intended_balcon_amount" required>  
+                </div>
+                <div>
+                    <label for="income">Monthly Income:</label>  
+                    <input type="text" id="income" name="income" required>  
+                </div>
+                <div>
+                    <label for="days_since_request">Days Since Request:</label>  
+                    <input type="text" id="days_since_request" name="days_since_request" required>  
+                </div>
+                <div>
+                    <label for="session_length_in_minutes">Session Length in Minutes:</label>  
+                    <input type="text" id="session_length_in_minutes" name="session_length_in_minutes" required>  
+                </div>
+                <div>
+                    <label for="velocity_24h">Velocity 24h:</label>  
+                    <input type="text" id="velocity_24h" name="velocity_24h" required>  
+                </div>
+                <div>
+                    <label for="velocity_6h">Velocity 6h:</label>  
+                    <input type="text" id="velocity_6h" name="velocity_6h" required>  
+                </div>
+                <div>
+                    <label for="device_fraud_count">Device Fraud Count:</label>  
+                    <input type="text" id="device_fraud_count" name="device_fraud_count" required>  
+                </div>
+                <div>
+                    <label for="bank_branch_count_8w">Bank Branch Count 8w:</label>  
+                    <input type="text" id="bank_branch_count_8w" name="bank_branch_count_8w" required>  
+                </div>
+                <div>
+                    <label for="bank_months_count">Bank Months Count:</label>  
+                    <input type="text" id="bank_months_count" name="bank_months_count" required>  
+                </div>
+                <div>
+                    <label for="customer_age">Customer Age:</label>  
+                    <input type="text" id="customer_age" name="customer_age" required>  
+                </div>
+                <div>
+                    <label for="has_other_cards">Has Other Cards:</label>  
+                    <input type="text" id="has_other_cards" name="has_other_cards" required>  
+                </div>
+            </div>
+
+            <input type="submit" value="Predict">  
+        </form>  
+    </div>  
+</body>  
+</html>
+
+
+
+
