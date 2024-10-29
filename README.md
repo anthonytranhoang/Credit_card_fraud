@@ -151,10 +151,12 @@ In this project, we developed and optimized a machine learning model to detect f
 In the initial phase, we explored different machine learning models to assess their suitability for the task. We experimented with both XGBoost and Random Forest classifiers to identify the model that best balanced accuracy and performance. During these trials, we focused on key steps such as data loading, preprocessing, training, and evaluating each model based on accuracy and classification reports. This phase served as a testing ground to fine-tune hyperparameters and optimize model configurations collaboratively.
 
 #### Final Model
-Why We Chose This Model
+Why We Chose This Model ?
+
 We selected the RandomForest model because it effectively handles complex datasets and is robust against overfitting. Additionally, it provides insights into feature importance, which is valuable for understanding the contributing factors of fraud. The model also supports balanced class weights, allowing us to address the class imbalance between fraud and non-fraud cases.
 
-Steps We Took
+Steps We Took :
+
 First, we checked the distribution of instances in each class (fraud and non-fraud) to understand the extent of the imbalance. To address this, we applied undersampling by randomly reducing the number of non-fraud cases (the majority class) to match the number of fraud cases (the minority class). Next, we performed feature engineering by using one-hot encoding for categorical variables and selecting the most relevant features for our analysis. We then applied StandardScaler to normalize the feature values, ensuring that they were on a consistent scale for better model training. Finally, we trained the RandomForest model with balanced class weights to further handle any remaining class imbalances.
 
 # Conclusion
