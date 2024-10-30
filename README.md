@@ -95,6 +95,7 @@ Submit Predictions:
 Fill in the transaction details in the form and receive fraud predictions instantly.
 ![ui1_720](https://github.com/user-attachments/assets/6bb37bc4-6cda-4b27-a7f2-425af986c776)
 ![ui2_720](https://github.com/user-attachments/assets/8fc94e70-98b0-4c8d-9593-7b28615f219f)
+![UI3](https://github.com/user-attachments/assets/565e0250-6faa-49a2-a43c-5a34a706f288)
 
 
 
