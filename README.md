@@ -157,7 +157,9 @@ First, we checked the distribution of instances in each class (fraud and non-fra
 
 # Conclusion
 
-This project delivers a comprehensive fraud detection solution, integrating machine learning with a user-friendly web interface to provide real-time fraud prevention capabilities, significantly reducing risk for financial institutions.
+In this project, we built a machine learning model to detect fraudulent financial transactions. We tested different models, like RandomForest and XGBoost, and used techniques such as undersampling and SMOTE to handle the imbalance between fraud and non-fraud cases. After comparing results, we chose the RandomForest model because it performed well and provided helpful insights into important features.
+
+The project also included a Flask web app that makes real-time predictions, making it easy to use and integrate into financial systems. Our solution helps banks quickly identify suspicious transactions, reducing risks and improving security. This work shows how machine learning can strengthen trust in financial systems and provide reliable tools for fraud detection.
 
 
 
