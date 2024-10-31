@@ -95,6 +95,7 @@ Submit Predictions:
 Fill in the transaction details in the form and receive fraud predictions instantly.
 ![ui1_720](https://github.com/user-attachments/assets/6bb37bc4-6cda-4b27-a7f2-425af986c776)
 ![ui2_720](https://github.com/user-attachments/assets/8fc94e70-98b0-4c8d-9593-7b28615f219f)
+![UI3](https://github.com/user-attachments/assets/565e0250-6faa-49a2-a43c-5a34a706f288)
 
 
 
@@ -118,11 +119,6 @@ Frontend: HTML, CSS
 Backend: Flask
 Data Processing: Python (Pandas, NumPy)
 Modeling: Scikit-Learn, XGBoost, ONNX Runtime
-
-# GitHub Repository
-
-For complete code access, please visit our GitHub Repository.
-https://github.com/anthonytranhoang/Credit_card_fraud
 
 
 # Expected Deliverables:
@@ -157,7 +153,9 @@ First, we checked the distribution of instances in each class (fraud and non-fra
 
 # Conclusion
 
-This project delivers a comprehensive fraud detection solution, integrating machine learning with a user-friendly web interface to provide real-time fraud prevention capabilities, significantly reducing risk for financial institutions.
+In this project, we built a machine learning model to detect fraudulent financial transactions. We tested different models, like RandomForest and XGBoost, and used techniques such as undersampling and SMOTE to handle the imbalance between fraud and non-fraud cases. After comparing results, we chose the RandomForest model because it performed well and provided helpful insights into important features.
+
+The project also included a Flask web app that makes real-time predictions, making it easy to use and integrate into financial systems. Our solution helps banks quickly identify suspicious transactions, reducing risks and improving security. This work shows how machine learning can strengthen trust in financial systems and provide reliable tools for fraud detection.
 
 
 
