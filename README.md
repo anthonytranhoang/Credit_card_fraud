@@ -120,11 +120,6 @@ Backend: Flask
 Data Processing: Python (Pandas, NumPy)
 Modeling: Scikit-Learn, XGBoost, ONNX Runtime
 
-# GitHub Repository
-
-For complete code access, please visit our GitHub Repository.
-https://github.com/anthonytranhoang/Credit_card_fraud
-
 
 # Expected Deliverables:
 
